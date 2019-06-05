@@ -11,11 +11,8 @@ bool Utils::IsPointInRect(Vector2 point, Rect rect)
 
 /*
 Xét theo trục Ox.
-
 │(x1 + W1/2)│ - │( x2+W2/2 )  ≤ │(W1+W2)/2│
-
 Xét theo hướng Oy.
-
 │(y1 + H1/2)│ - │( y2+H2/2 )  ≤ │(H1+H2)/2│
 */
 bool Utils::IsRectIntersectRect(Rect r1, Rect r2)
@@ -35,8 +32,8 @@ bool Utils::IsRectIntersectRect(Rect r1, Rect r2)
 	return false;
 }
 
-int Utils::Random(int min, int max)
+int Utils::random(int min, int max)
 {
-	int random = rand() % (max - min + 1) + min;
-	return random;
+  int random = rand() % max + min;
+  return random;
 }
