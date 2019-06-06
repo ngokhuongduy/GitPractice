@@ -1,0 +1,10 @@
+# bo qua thu muc build
+build/
+# bo qau thu muc bin
+bin/
+# bo qua thu muc debug
+debug/
+# bo qua file *.sdf
+*.sdf
+# bo qua file *.txt trong folder data/text
+data/text/*.txt
