@@ -56,9 +56,11 @@ int main(){
 	char p1name[20],p2name[20];
 	if(menu()==1){
 		cout<<"Enter Player 1 name: ";
-		cin >>p1name;
+		cin.ignore();
+		cin.get(p1name,20);
 		cout<<"Enter Player 2 name: ";
-		cin >>p2name;
+		cin.ignore();
+		cin.get(p2name,20);
     	for (int i = 0; i < size; i++){
         	for (int j = 0; j < size; j++){
             	board[i][j] = '-';
