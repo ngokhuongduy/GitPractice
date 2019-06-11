@@ -1,4 +1,5 @@
-﻿  ConsoleApplication1.cpp
-c:\users\ngokh\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(46): warning C4715: 'isWin': not all control paths return a value
-  ConsoleApplication1.vcxproj -> c:\users\ngokh\documents\visual studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
-  ConsoleApplication1.vcxproj -> c:\users\ngokh\documents\visual studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb (Full PDB)
+﻿  stdafx.cpp
+  ConsoleApplication1.cpp
+c:\users\ngokh\desktop\new folder\gitpractice\c++\consoleapplication1\consoleapplication1\consoleapplication1.cpp(50): warning C4715: 'isWin': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\ngokh\Desktop\New folder\GitPractice\c++\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\ngokh\Desktop\New folder\GitPractice\c++\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb (Full PDB)

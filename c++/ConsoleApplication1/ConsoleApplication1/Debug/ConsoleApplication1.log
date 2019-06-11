@@ -1,2 +1,4 @@
 ﻿  ConsoleApplication1.cpp
-c:\users\ngokh\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(107): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+c:\users\ngokh\desktop\new folder\gitpractice\c++\consoleapplication1\consoleapplication1\consoleapplication1.cpp(46): warning C4715: 'isWin': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\ngokh\Desktop\New folder\GitPractice\c++\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\ngokh\Desktop\New folder\GitPractice\c++\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

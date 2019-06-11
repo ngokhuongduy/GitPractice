@@ -23,25 +23,29 @@ void printBoard(char arr[][s]) {
 	}
 }
 
-bool isWin(char arr[][s], int r, int c, char ch) {
-	if (arr[r][c] == ch) {
-		if ((arr[r][c] == arr[r + 1][c]) && (arr[r + 1][c] == arr[r + 2][c]))
-		{
-			return true;
-		}
-		else if ((arr[r][c] == arr[r][c + 1]) && (arr[r][c + 1] == arr[r][c + 2]))
-		{
-			return true;
-		}
-		else if ((arr[r][c] == arr[r + 1][c + 1]) && (arr[r + 1][c + 1] == arr[r + 2][c + 2]))
-		{
-			return true;
-		}
-		else if ((arr[r][c] == arr[r - 1][c + 1]) && (arr[r - 1][c + 1] == arr[r - 2][c + 2]))
-		{
-			return true;
-		}
+bool isWin(char arr[][s], char ch) {
+	for (int i = 0; i < s; i++) {
+		for (int j = 0; j < s; j++) {
+			if (arr[i][j] == ch) {
+				if ((arr[i][j] == arr[i + 1][j]) && (arr[i + 1][j] == arr[i + 2][j]))
+				{
+					return true;
+				}
+				else if ((arr[i][j] == arr[i][j + 1]) && (arr[i][j + 1] == arr[i][j + 2]))
+				{
+					return true;
+				}
+				else if ((arr[i][j] == arr[i + 1][j + 1]) && (arr[i + 1][j + 1] == arr[i + 2][j + 2]))
+				{
+					return true;
+				}
+				else if ((arr[i][j] == arr[i + 1][j - 1]) && (arr[i + 1][j - 1] == arr[i + 2][j - 2]))
+				{
+					return true;
+				}
 		return false;
+			}
+		}
 	}
 }
 bool isDraw(char arr[][s]) {
@@ -91,7 +95,7 @@ int main() {
 				cin >> row >> col;
 			} while (!(row >= 0 && row < s && col >= 0 && col < s && board[row][col] == '-'));
 			board[row][col] = player;
-			if (isWin(board, row, col, player)) {
+			if (isWin(board, player)) {
 				system("cls");
 				printBoard(board);
 				cout << "Player " << player << " Wins" << endl;
