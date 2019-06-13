@@ -1,0 +1,4 @@
+﻿  StudentManagement.cpp
+c:\users\ngokh\documents\visual studio 2015\projects\studentmanagement\studentmanagement\studentmanagement.cpp(200): warning C4018: '<': signed/unsigned mismatch
+  StudentManagement.vcxproj -> c:\users\ngokh\documents\visual studio 2015\Projects\StudentManagement\Debug\StudentManagement.exe
+  StudentManagement.vcxproj -> c:\users\ngokh\documents\visual studio 2015\Projects\StudentManagement\Debug\StudentManagement.pdb (Full PDB)
